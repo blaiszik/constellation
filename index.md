@@ -34,21 +34,35 @@ The data processing pipeline is used to compute different types of features and 
 
 Abbrev. | Full name | Molecules | Details
 ----- | --- | --- | --- 
-DBK | Drugbank | TBD | TBD
-DUD | DUDE | TBD | TBD
-EMO | eMolecules| TBD | TBD
-ENA | Enamine REAL | TBD | TBD
+BDB | BindingDB | TBD | TBD
+CAS | CAS | TBD | TBD
+DCL | DrugCentral | TBD | TBD
+DBK | Drugbank | 9,679 | TBD
+DUD | DUDE database of useful decoys | 101,337 | [Link](http://dude.docking.org)
 E15 | Enamine REAL 15.5M subset| TBD | TBD 
-G13 | GDB-13| TBD | TBD
-G17 | GDB-17| TBD | TBD
-SAV | SAVI | TBD | TBD
-SUR | SureChEML | TBD | TBD
-ZIN | ZINC15 | TBD | TBD
+EDB | Enamine REAL subset | TBD | TBD
+EMO | eMolecules | 22,318,616 | TBD 
+ENA | Enamine REAL | TBD | TBD
+FFI | Cure | TBD | TBD
+G13 | GDB-13| 977,468,301 | TBD
+G17 | GDB-17| 50,000,000 | TBD
+HOP | Harvard Organic Photovoltaic Dataset | 350 | [Link](https://www.nature.com/articles/sdata201686)
+L1K | L1000 | 10,148 | TBD
+MOS | Moses | 1,936,963 | TBD
+PCH | PubChem | 97,584,282 | TBD
+QM9 | QM9 | 133,885 | TBD
+REP | REP | 10,148 | TBD
+SAV | SAVI | 283,194,319 | TBD
+SUR | SureChEML | 291,525,153 | TBD
+ZIN | ZINC15 | 1,475,876,222 | TBD
+
+Notes:
+* The numbers above need to be validated. Note that they may be less than what can be found at the source.
+* These numbers do not account for de-duplication, within or between datasets.
 
 
 Abbrev. | Canonical SMILES | Fingerprints | Descriptors | Images
 ----- | --- | --- | ---  | ---
-
 E15 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F) | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F) | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F)
 G13 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F) | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F) | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F)
 G17 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F) | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F) | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F)
