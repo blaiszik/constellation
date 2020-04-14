@@ -34,32 +34,34 @@ The data processing pipeline is used to compute different types of features and 
 
 Key | Full name | # Molecules | Details
 ----- | --- | --- | --- 
-BDB | BindingDB | TBD | TBD
-CAS | CAS COVID-19 Antiviral Candidate Compounds | TBD | [Link](https://www.cas.org/covid-19-antiviral-compounds-dataset)
-DCL | DrugCentral | TBD | TBD
-DBK | Drugbank | 9,679 | TBD
-DUD | DUDE database of useful decoys | 101,337 | [Link](http://dude.docking.org)
-E15 | 15.5M-molecule subset of ENA | TBD | TBD 
-EDB | Enamine REAL subset | TBD | TBD
-EMO | eMolecules | 22,318,616 | TBD 
-ENA | Enamine REAL | TBD | TBD
-FFI | Cure | TBD | TBD
-G13 | GDB-13| 977,468,301 | TBD
-G17 | GDB-17| 50,000,000 | TBD
+BDB | The Binding Database | 1,813,538 | [Link](https://www.bindingdb.org/bind/index.jsp)
+CAS | CAS COVID-19 Antiviral Candidate Compounds | 49,437 | [Link](https://www.cas.org/covid-19-antiviral-compounds-dataset)
+DCL | DrugCentral Online Drug Compendium | 3,981 | [Link](http://drugcentral.org)
+DBK | Drugbank | 9,678 | [Link](https://www.drugbank.ca)
+DUD | DUDE database of useful decoys | 99,782 | [Link](http://dude.docking.org)
+E15 | 15.5M-molecule subset of ENA | 15,547,091 | N/A
+EDB | Enamine REAL subset | 310,782 | N/A
+EMO | eMolecules | 25,946,988 | [Link](https://www.emolecules.com/info/products-data-downloads.html)
+ENA | Enamine REAL Database | 1,211,723,723 | [Link](https://enamine.net/library-synthesis/real-compounds/real-database)
+FFI | CureFFI | 1,497 | [Link](https://www.cureffi.org/2013/10/04/list-of-fda-approved-drugs-and-cns-drugs-with-smiles/)
+G13 | GDB-13| 977,468,301 | [Link](http://gdb.unibe.ch/downloads/)
+G17 | GDB-17-Set| 50,000,000 | [Link](http://gdb.unibe.ch/downloads/)
 HOP | Harvard Organic Photovoltaic Dataset | 350 | [Link](https://www.nature.com/articles/sdata201686)
-L1K | L1000 | 10,148 | TBD
-MOS | Moses | 1,936,963 | TBD
-PCH | PubChem | 97,584,282 | TBD
-QM9 | QM9 | 133,885 | TBD
-REP | REP | 10,148 | TBD
-SAV | Synthetically Accessible Virtual Inventory (SAVI) | 283,194,319 | [Link](https://cactus.nci.nih.gov/download/savi_download/)
-SUR | SureChEML | 291,525,153 | [Link](https://surechembl.org/)
-ZIN | ZINC15 | 1,475,876,222 | TBD
+L1K | L1000 | 10,141 | [Link](http://www.lincsproject.org)
+MOS | Molecular Sets (MOSES) | 1,936,962 | [Link](https://github.com/molecularsets/moses)
+PCH | PubChem | 97,545,266 | [Link](https://www.ncbi.nlm.nih.gov/guide/data-software/)
+QM9 | QM9 subset of GDB-17 | 133,885 | [Link](http://quantum-machine.org/datasets/)
+REP | REP | 6,244 | TBD
+SAV | Synthetically Accessible Virtual Inventory (SAVI) | 265,047,097 | [Link](https://cactus.nci.nih.gov/download/savi_download/)
+SUR | SureChEML | 17,915,384 | [Link](https://surechembl.org/)
+ZIN | ZINC15 | 1,225,804,829 | [Link](http://zinc15.docking.org)
+    |        | **3,891,374,956** |
 
 Notes:
-* The numbers above need to be validated. Note that they may be less than what can be found at the source.
+* The numbers above may be less than what can be found at the source, due to conversion failures and/or version differences.
 * These numbers do not account for de-duplication, within or between datasets.
 * We may want to look at [MoleculeNet](http://moleculenet.ai/datasets-1)
+* EDB needs a better description
 
 
 Key | Canonical SMILES | Fingerprints | Descriptors | Images
