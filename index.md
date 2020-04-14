@@ -32,14 +32,14 @@ The data processing pipeline is used to compute different types of features and 
 
 ## Data Summary Table
 
-Abbrev. | Full name | Molecules | Details
+Key | Full name | # Molecules | Details
 ----- | --- | --- | --- 
 BDB | BindingDB | TBD | TBD
-CAS | CAS | TBD | TBD
+CAS | CAS COVID-19 Antiviral Candidate Compounds | TBD | [Link](https://www.cas.org/covid-19-antiviral-compounds-dataset)
 DCL | DrugCentral | TBD | TBD
 DBK | Drugbank | 9,679 | TBD
 DUD | DUDE database of useful decoys | 101,337 | [Link](http://dude.docking.org)
-E15 | Enamine REAL 15.5M subset| TBD | TBD 
+E15 | 15.5M-molecule subset of ENA | TBD | TBD 
 EDB | Enamine REAL subset | TBD | TBD
 EMO | eMolecules | 22,318,616 | TBD 
 ENA | Enamine REAL | TBD | TBD
@@ -52,16 +52,17 @@ MOS | Moses | 1,936,963 | TBD
 PCH | PubChem | 97,584,282 | TBD
 QM9 | QM9 | 133,885 | TBD
 REP | REP | 10,148 | TBD
-SAV | SAVI | 283,194,319 | TBD
-SUR | SureChEML | 291,525,153 | TBD
+SAV | Synthetically Accessible Virtual Inventory (SAVI) | 283,194,319 | [Link](https://cactus.nci.nih.gov/download/savi_download/)
+SUR | SureChEML | 291,525,153 | [Link](https://surechembl.org/)
 ZIN | ZINC15 | 1,475,876,222 | TBD
 
 Notes:
 * The numbers above need to be validated. Note that they may be less than what can be found at the source.
 * These numbers do not account for de-duplication, within or between datasets.
+* We may want to look at [MoleculeNet](http://moleculenet.ai/datasets-1)
 
 
-Abbrev. | Canonical SMILES | Fingerprints | Descriptors | Images
+Key | Canonical SMILES | Fingerprints | Descriptors | Images
 ----- | --- | --- | ---  | ---
 E15 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F) | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F) | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F)
 G13 | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F) | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F) | [Link](https://app.globus.org/file-manager?origin_id=a386b552-6086-11ea-9688-0e56c063f437&origin_path=%2Fdata%2Fdescriptors%2FDrunkBank_descriptors%2F)
