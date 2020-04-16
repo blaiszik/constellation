@@ -27,32 +27,33 @@ The data processing pipeline is used to compute different types of features and 
 
 ---
 
-## Data Summary Table
+## Dataset Catalog
+Below is a list of the collected datasets, along with links to the original work and the number of molecules included in the dataset.
 
-Key | Full name | # Molecules | Details
+Key | Full name | # Molecules
 ----- | --- | --- | --- 
-BDB | The Binding Database | 1,813,538 | [Link](https://www.bindingdb.org/bind/index.jsp)
-CAS | CAS COVID-19 Antiviral Candidate Compounds | 49,437 | [Link](https://www.cas.org/covid-19-antiviral-compounds-dataset)
-DCL | DrugCentral Online Drug Compendium | 3,981 | [Link](http://drugcentral.org)
-DBK | Drugbank | 9,678 | [Link](https://www.drugbank.ca)
-DUD | DUDE database of useful decoys | 99,782 | [Link](http://dude.docking.org)
-E15 | 15.5M-molecule subset of ENA | 15,547,091 | N/A
-EDB | Enamine REAL subset | 310,782 | N/A
-EMO | eMolecules | 25,946,988 | [Link](https://www.emolecules.com/info/products-data-downloads.html)
-ENA | Enamine REAL Database | 1,211,723,723 | [Link](https://enamine.net/library-synthesis/real-compounds/real-database)
-FFI | CureFFI | 1,497 | [Link](https://www.cureffi.org/2013/10/04/list-of-fda-approved-drugs-and-cns-drugs-with-smiles/)
-G13 | GDB-13| 977,468,301 | [Link](http://gdb.unibe.ch/downloads/)
-G17 | GDB-17-Set| 50,000,000 | [Link](http://gdb.unibe.ch/downloads/)
-HOP | Harvard Organic Photovoltaic Dataset | 350 | [Link](https://www.nature.com/articles/sdata201686)
-L1K | L1000 | 10,141 | [Link](http://www.lincsproject.org)
-MOS | Molecular Sets (MOSES) | 1,936,962 | [Link](https://github.com/molecularsets/moses)
-PCH | PubChem | 97,545,266 | [Link](https://www.ncbi.nlm.nih.gov/guide/data-software/)
-QM9 | QM9 subset of GDB-17 | 133,885 | [Link](http://quantum-machine.org/datasets/)
-REP | REP | 6,244 | TBD
-SAV | Synthetically Accessible Virtual Inventory (SAVI) | 265,047,097 | [Link](https://cactus.nci.nih.gov/download/savi_download/)
-SUR | SureChEML | 17,915,384 | [Link](https://surechembl.org/)
-ZIN | ZINC15 | 1,225,804,829 | [Link](http://zinc15.docking.org)
-    |        | **3,891,374,956** |
+BDB | [The Binding Database]((https://www.bindingdb.org/bind/index.jsp)) | 1,813,538 
+CAS | [CAS COVID-19 Antiviral Candidate Compounds](https://www.cas.org/covid-19-antiviral-compounds-dataset) | 49,437
+DCL | [DrugCentral Online Drug Compendium](http://drugcentral.org) | 3,981 
+DBK | [Drugbank](https://www.drugbank.ca) | 9,678 
+DUD | [DUDE database of useful decoys](http://dude.docking.org) | 99,782 
+E15 | 15.5M-molecule subset of ENA | 15,547,091 
+EDB | Enamine REAL subset | 310,782
+EMO | [eMolecules](https://www.emolecules.com/info/products-data-downloads.html) | 25,946,988
+ENA | [Enamine REAL Database](https://enamine.net/library-synthesis/real-compounds/real-database) | 1,211,723,723
+FFI | [CureFFI](https://www.cureffi.org/2013/10/04/list-of-fda-approved-drugs-and-cns-drugs-with-smiles/) | 1,497 
+G13 | [GDB-13](http://gdb.unibe.ch/downloads/)| 977,468,301
+G17 | [GDB-17-Set](http://gdb.unibe.ch/downloads/)| 50,000,000
+HOP | [Harvard Organic Photovoltaic Dataset](https://www.nature.com/articles/sdata201686) | 350
+L1K | [L1000](http://www.lincsproject.org) | 10,141 |
+MOS | [Molecular Sets (MOSES)](https://github.com/molecularsets/moses) | 1,936,962
+PCH | [PubChem](https://www.ncbi.nlm.nih.gov/guide/data-software/) | 97,545,266
+QM9 | [QM9 subset of GDB-17](http://quantum-machine.org/datasets/) | 133,885
+REP | REP | 6,244
+SAV | [Synthetically Accessible Virtual Inventory (SAVI)](https://cactus.nci.nih.gov/download/savi_download/) | 265,047,097
+SUR | [SureChEML](https://surechembl.org/) | 17,915,384
+ZIN | [ZINC15](http://zinc15.docking.org) | 1,225,804,829
+    |        | **3,891,374,956** 
 
 Notes:
 {: .label .label-blue }
@@ -61,6 +62,8 @@ Notes:
 * We may want to look at [MoleculeNet](http://moleculenet.ai/datasets-1)
 * EDB needs a better description
 
+## Dataset Summary
+Follow the links below to collect canonical SMILES, molecular fingerprints, descriptors, and images (png format) for each dataset.
 
 Key | Canonical SMILES | Fingerprints | Descriptors | Images
 ----- | --- | --- | ---  | ---
