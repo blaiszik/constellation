@@ -62,8 +62,8 @@ Notes:
 * We may want to look at [MoleculeNet](http://moleculenet.ai/datasets-1)
 * EDB needs a better description
 
-## Dataset Summary
-Follow the links below to collect canonical SMILES, molecular fingerprints, descriptors, and images (png format) for each dataset.
+## Dataset Downloads
+Follow the links below to access canonical SMILES, molecular fingerprints, descriptors, and images (png format) for each dataset.
 
 Key | Canonical SMILES | Fingerprints | Descriptors | Images
 ----- | --- | --- | ---  | ---
